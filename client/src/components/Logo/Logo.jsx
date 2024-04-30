@@ -1,4 +1,5 @@
 import styles from "./Logo.module.css";
+import logo from "../../assets/images/LibrArt.png"
 
 function Logo() {
   const redirectionToHome = () => {
@@ -10,7 +11,7 @@ function Logo() {
       <button className={styles.Logo} type="button" onClick={redirectionToHome}>
         <img
           className={styles.logoImage}
-          src="src/assets/images/LibrArt.png"
+          src={logo}
           alt="logo du site"
         />
       </button>
